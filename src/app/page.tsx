@@ -17,12 +17,11 @@ export default function Portfolio() {
 
   return (
     <div className="bg-[#0a0a0a] text-neutral-300 min-h-screen font-sans selection:bg-cyan-500/30">
-      {/* HEADER / HERO */}
       <header className="max-w-5xl mx-auto px-6 pt-24 pb-16">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tighter">
-              NANDAKISHOR S
+              NANDAKISHOR 
             </h1>
             <p className="text-cyan-500 font-mono text-lg mb-6 tracking-widest uppercase">
               AI & Machine Learning Enthusiast
@@ -40,7 +39,6 @@ export default function Portfolio() {
         </div>
       </header>
 
-      {/* IDEOLOGIES / PHILOSOPHY */}
       <section className="max-w-5xl mx-auto px-6 py-16 border-y border-neutral-900">
         <h2 className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-10">Ideology & Approach</h2>
         <div className="grid md:grid-cols-2 gap-12">
@@ -61,8 +59,6 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-
-      {/* PROJECTS GRID */}
       <section className="max-w-5xl mx-auto px-6 py-20">
         <h2 className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-10">Selected Works</h2>
         <div className="grid md:grid-cols-2 gap-6">
@@ -75,8 +71,6 @@ export default function Portfolio() {
           ))}
         </div>
       </section>
-
-      {/* ACHIEVEMENTS TIMELINE */}
       <section className="max-w-5xl mx-auto px-6 py-20 bg-cyan-500/5 rounded-[3rem] mb-20">
         <h2 className="text-xs uppercase tracking-[0.3em] text-cyan-500 mb-10 text-center">Achievements & Milestones</h2>
         <div className="grid md:grid-cols-4 gap-8">
@@ -89,8 +83,6 @@ export default function Portfolio() {
           ))}
         </div>
       </section>
-
-      {/* FOOTER */}
       <footer className="max-w-5xl mx-auto px-6 pb-20 text-center">
         <div className="h-[1px] w-full bg-neutral-900 mb-12"></div>
         <p className="text-sm text-neutral-600">© 2024 Nandakishor S — Built with Next.js & Tailwind.</p>
